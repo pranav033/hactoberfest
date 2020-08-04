@@ -18,7 +18,6 @@ class Network{
         return WeatherForecastModel.fromJson(jsonDecode(response.body));
       }
     else{
-
       throw Exception("Error");
     }
   }
